@@ -4,6 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+@lombok.Data
 public class Nationality {
 
     private long count;
@@ -42,6 +43,7 @@ public class Nationality {
         this.countries = countries;
     }
 
+    @lombok.Data
     public static class Country {
 
         private String countryId;
